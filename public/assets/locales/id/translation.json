@@ -1,0 +1,190 @@
+{
+    "AUTH" : {
+        "SIGNIN" : "Masuk",
+        "SIGNUP" : "Daftar",
+        "FORGET" : "Lupa Kata sandi?" ,
+        "REMEMBER" : "Tetap Masuk",
+        "OR" : "Atau",
+        "SIGNUP_LABEL" : "Tidak memiliki akun?",
+        "SIGNIN_LABEL" : "Sudah memiliki akun?",
+        "FORGET_LABEL_EMAIL" : "Masuk E-mail anda untuk mendapatkan link ubah kata sandi",
+        "SEND" : "Kirim",
+        "FULLNAME" : "Nama Lengkap",
+        "ADD_AVATAR" : "Tambahkan Poto",
+        "PRIVACY_LABEL" : "Dengan melanjutkan anda setuju dengan",
+        "CONDITION" : "Syarat",
+        "AND" : "dan",
+        "OURTERMS" : "Ketentuan Kami",
+        "REPEAT_PASSWORD" : "Ulangi Kata Sandi",
+        "PASSWORD" : "Kata Sandi",
+        "RECEIVE" : "Tidak menerima kode?",
+        "RESEND" : "Kirim Ulang"
+    },
+    "FOOTER" : {
+        "ABOUT" : "Tentang",
+        "TERMS" : "Ketentuan",
+        "PRIVACY" : "Privasi",
+        "HELP" : "Bantuan",
+        "DARK" : "Gelap",
+        "LIGHT" : "Terang"
+    },
+    "MESSAGE" : {
+        "WELCOME" : "Selamat Datang"
+    }, 
+    "OTHER" : {
+        "SIGNOUT" : "Keluar",
+        "SETTING" : "Pengaturan",
+        "FEEDBACK" : "Beri Masukan"
+    },
+    "TITLE" : {
+        "ARTICLE" : "Artikel"
+    }, 
+    "SIDEBAR" : {
+        "HOME" : "Beranda",
+        "ARTICLE" : "Artikel",
+        "TOPICS" : "Topik",
+        "USER" : "Pengguna",
+        "ANALYSIS" : "Analisis",
+        "FEEDBACK" : "Masukan",
+        "ROLE" : "Peran"
+    },
+    "ARTICLE" : {
+        "NAME" : "Artikel",
+        "PUBLISH" : "Terbit",
+        "DRAFT" : "Konsep",
+        "FILTER" : "Saring",
+        "TOPICS" : "Topik",
+        "BASEDON" : "Berdasarkan",
+        "SEARCH" : "Cari Topik...",
+        "ADD_ARTICLE" : "Tambahkan Artikel",
+        "COPY_LINK" : "Berhasil salin link",
+        "FILTER_TEXT" : {
+            "VIEW" : "Dilihat",
+            "LATEST" : "Terbaru",
+            "OLDEST" : "Terlama"
+        },
+        "ADD" : {
+            "IMAGE" : "Gambar",
+            "TITLE" : "Judul",
+            "SUBTITLE" : "Sub Judul",
+            "TOPICS" : "Topik",
+            "TAGS" : "Tags",
+            "TAGS_CAPTION" : "Pisahkan dengan koma",
+            "REFERENCE" : "Referensi",
+            "CONTENT" : "Content",
+            "ADDROW" : "Tambah baris",
+            "DELETEROW" : "Hapus baris",
+            "ADD_SUB_TITLE" : "Tambahkan Sub Judul",
+            "DELETE_SUB_TITLE" : "Hapus Sub Judul",
+            "DRAFT" : "Simpan sebagai konsep" ,
+            "DROPDOWN" : {
+                "DRAFT" : "Jadikan Konsep",
+                "PUBLISH" : "Terbitkan",
+                "COPY" : "Copy Link",
+                "FACEBOOK" : "Bagikan ke Facebook",
+                "TWITTER" : "Bagikan ke Twitter"
+            }
+        },
+        "TABLE" : {
+            "ARTICLE" : "Artikel",
+            "TOPICS" : "Topik",
+            "WRITTER" : "Penulis",
+            "DATE" : "Tanggal",
+            "VIEW" : "Dilihat",
+            "EDITOR" : "Penyunting",
+            "EDITED" : "Disunting",
+            "READING" : "Waktu Membaca"
+        },
+        "PAGE" : {
+            "ROWS" : "Baris per halaman : "
+        }
+    }, 
+    "MODAL" : {
+        "DELETED" : "Hapus",
+        "CANCEL" : "Batal",
+        "MESSAGE" : "Apakah Anda yakin ingin menghapus?",
+        "DELETE_WARNING_ONE" : "Data yang dihapus bersifat permanen",
+        "DELETE_WARNING_TWO" : "Data yang dihapus tidak dapat dipulihkan"
+    },
+    "TOPICS" : {
+        "ADD_TOPICS" : "Tambahkan Topik",
+        "COLOUMN_NAME" : {
+            "TOPICS" : "Topik",
+            "ADD" : "Ditambahkan",
+            "EDITED" : "Disunting",
+            "DATE" : "Tanggal",
+            "TOTAL" : "Total"
+        },
+        "ADD" : {
+            "TOPICS" : "Topik",
+            "DESCRIPTION" : "Keterangan",
+            "OPTIONAL" : "Opsional"
+        }
+    },
+    "USER" : {
+        "TABLE" : {
+            "FULLNAME" : "Nama Lengkap",
+            "DATE" : "Tanggal bergabung",
+            "ACTIVE" : "Terakhir aktif",
+            "ROLE" : "Peran",
+            "EMAIL_VERIFY" : "Verifikasi Email"
+        },
+        "ROLE" : {
+            "WRITTER" : "Penulis",
+            "EDITOR" : "Penyunting",
+            "ADMIN" : "Admin",
+            "ALL" : "Tampilkan semua"
+        },
+        "MANAGE" : "Kelola menurut topik",
+        "VERIFY_EMAIL" : "Email sudah terverifikasi",
+        "VERIFY_NOT_EMAIL" : "Email belum terverifikasi"
+    },
+    "ROLE" : { 
+        "ADD_ROLE" : "Tambahkan Peran",
+        "TABLE" : {
+            "ROLE" : "Peran", 
+            "DATE" : "Waktu",
+            "TOTAL" : "Pengguna"
+        }
+    },
+    "SETTING" : {
+        "TITLE" : "Pengaturan",
+        "GENERAL"  : {
+            "LABEL" : "Pengaturan Akun Umum",
+            "NAME" : {
+                "LABEL" : "Nama",
+                "BUTTON" : "Ubah Nama"
+            },
+            "PASSWORD" : {
+                "LABEL" : "Kata Sandi",
+                "PASSWORD_TEXT" : "Selalu rahasiakan kata sandi",
+                "BUTTON" : "Ubah Kata Sandi"
+            }
+        },
+        "LANGTHEME" : {
+            "LABEL" : "Bahasa dan Tema",
+            "LANGUAGE" : "Bahasa",
+            "THEME" : "Tema"
+        },
+        "LOGIN_HISTORY" : {
+            "LABEL" : "Riwayat Masuk",
+            "COLLAPSE" : "Tampilkan",
+            "UNCOLLAPSE" : "Tutup"
+        }
+    }, 
+    "PROFILE" : {
+        "UPDATE" : {
+            "EDIT" : "Ubah",
+            "UPDATE_PROFILE" : "Perbarui profil",
+            "PROFILE_PICTURE" : "Gambar Profil",
+            "BIODATA" : "Biodata",
+            "UPDATE_PROFILE_PICTURE" : "Perbarui Gambar Profil",
+            "UPLOAD_PHOTO" : "Unggah Poto",
+            "CHANGE_PHOTO" : "Ubah Foto",
+            "REMOVE_PHOTO" : "Hapus Foto",
+            "SAVE_PHOTO" : "Simpan Foto",
+            "UPDATE_BIODATA" : "Ubah Biodata",
+            "SAVE_BIODATA" : "Simpan Biodata"
+        }
+    }
+}

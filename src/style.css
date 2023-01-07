@@ -1,0 +1,77 @@
+.rdw-editor-main {
+    padding: 19px;
+}
+
+.ce-toolbar__content  {
+    max-width: 899px;;
+}
+.ce-block__content  {
+    max-width: 851px;
+}
+.rdw-editor-toolbar {
+    border-radius : 0px !important;
+    margin-bottom: 0 !important;
+}
+
+
+
+/* detail */
+.code-light {
+    background: rgba(242, 242, 242, 1);
+    padding: 20px;
+    border-radius: 5px;
+}
+.code-dark {
+    background: #2e2e2e;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.delimiter{
+    display: flex;
+    justify-content: center;
+   
+}
+.delimiter p {
+    font-size: 20px;
+}
+.delimiter p:nth-child(1){
+    padding-right: 15px;
+}
+.delimiter p:nth-child(3){
+    padding-left: 15px;
+}
+
+.image-fluid{
+    width: 100%;
+    border-radius: 8px;
+}
+.caption-image{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+.raw-dark-mode{
+    background: #1e2128;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.raw-dark-light{
+    background: #1e2128;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+@media (max-width : 1200px) {
+    .ce-toolbar__content  {
+        max-width: 800px;;
+    }
+    .ce-block__content  {
+        max-width: 770px;
+    }
+}

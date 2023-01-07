@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "googleRegular";
+    src: url('./assets/fonts/regular.ttf');
+}
+@font-face {
+    font-family: "googlebold";
+    src: url('./assets/fonts/bold.ttf');
+}
+@font-face {
+    font-family: "googlebolditalic";
+    src: url('./assets/fonts/bolditalic.ttf');
+}
+@font-face {
+    font-family: "googleitalic";
+    src: url('./assets/fonts/italic.ttf');
+}

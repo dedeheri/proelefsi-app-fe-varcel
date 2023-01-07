@@ -1,0 +1,193 @@
+{
+    "AUTH" : {
+        "SIGNIN" : "Sign In",
+        "SIGNUP" : "Sign Up",
+        "FORGET" : "Forget Password?" ,
+        "REMEMBER" : "Remember me",
+        "OR" : "Or",
+        "SIGNUP_LABEL" : "Don't have an account?",
+        "SIGNIN_LABEL" : "Aready have an account?",
+        "FORGET_LABEL_EMAIL" : "Enter your email to get a change password link",
+        "SEND" : "Send",
+        "FULLNAME" : "Full Name",
+        "ADD_AVATAR" : "Add Photo",
+        "PRIVACY_LABEL" : "By continuing you agree with",
+        "CONDITION" : "Condition",
+        "AND" : "and",
+        "OURTERMS" : "Our Terms",
+        "REPEAT_PASSWORD" : "Repeat Password",
+        "PASSWORD" : "Password",
+        "RECEIVE" : "Didn't receive the Code?",
+        "RESEND" : "Resending"
+
+    },
+    "FOOTER" : {
+        "ABOUT" : "About",
+        "TERMS" : "Terms",
+        "PRIVACY" : "Privacy",
+        "HELP" : "Help",
+        "DARK" : "Dark",
+        "LIGHT" : "Light"
+    },
+    "MESSAGE" : {
+        "WELCOME" : "Welcome"
+    }, 
+    "OTHER" : {
+        "LOGOUT" : "Log out",
+        "SETTING" : "Setting",
+        "FEEDBACK" : "Give Feedback"
+    },
+    "TITLE" : {
+        "ARTICLE" : "Article"
+    }, 
+    "SIDEBAR" : {
+        "HOME" : "Home",
+        "ARTICLE" : "Article",
+        "TOPICS" : "Topics",
+        "USER" : "User",
+        "ANALYSIS" : "Analysis",
+        "FEEDBACK" : "Feedback",
+        "ROLE" : "Role"
+    },
+    "ARTICLE" : {
+        "NAME" : "Article",
+        "PUBLISH" : "Publish",
+        "DRAFT" : "Draft",
+        "FILTER" : "Filter",
+        "TOPICS" : "Topics",
+        "BASEDON" : "Based On",
+        "SEARCH" : "Search Topics...",
+        "SEARCH_NOT_FOUND" : "Pencarian tidak ditemukan",
+        "ADD_ARTICLE" : "Add Article",
+        "COPY_LINK" : "Successfully copy link",
+        "FILTER_TEXT" : {
+            "VIEW" : "View",
+            "LATEST" : "Latest",
+            "OLDEST" : "Oldest"
+        },
+        "ADD" : {
+            "IMAGE" : "Image",
+            "TITLE" : "Title",
+            "SUBTITLE" : "Sub Title",
+            "TOPICS" : "Topics",
+            "TAGS" : "Tags",
+           
+            "TAGS_CAPTION" : "Separate with comma",
+            "REFERENCE" : "Reference",
+            "CONTENT" : "Content",
+            "ADDROW" : "Add Row",
+            "DELETEROW" : "Delete Row",
+            "ADD_SUB_TITLE" : "Add Sub Title",
+            "DELETE_SUB_TITLE" : "Delete Sub Title",
+            "DRAFT" : "Save as draft",
+            "DROPDOWN" : {
+                "DRAFT" : "Make Draft",
+                "PUBLISH" : "Make Publish", 
+                "COPY" : "Salin Alamat",
+                "FACEBOOK" : "Share to Facebook",
+                "TWITTER" : "Share to Twitter"
+            }
+        },
+        "TABLE" : {
+            "ARTICLE" : "Article",
+            "TOPICS" : "Topics",
+            "WRITTER" : "Writter",
+            "DATE" : "Date",
+            "VIEW" : "View",
+            "EDITOR" : "Editor",
+            "EDITED" : "Edited",
+            "READING" : "Reading Time"
+        },
+        "PAGE" : {
+            "ROWS" : "Rows per page : "
+        }
+    }, 
+    "MODAL" : {
+        "DELETED" : "Delete",
+        "CANCEL" : "Cancel",
+        "MESSAGE" : "Are you sure you want to deleted?",
+        "DELETE_WARNING_ONE" : "Deleted data is permanent",
+        "DELETE_WARNING_TWO" : "Deleted data cannot be recovered"
+    },
+    "TOPICS" : {
+        "ADD_TOPICS" : "Add Topics",
+        "COLOUMN_NAME" : {
+            "TOPICS" : "Topics",
+            "ADD" : "Add",
+            "EDITED" : "Edited",
+            "DATE" : "Date",
+            "TOTAL" : "Total"
+        },
+        "ADD" : {
+            "TOPICS" : "Topics",
+            "DESCRIPTION" : "Description",
+            "OPTIONAL" : "Optional"
+        }
+    },
+    "USER" : {
+        "TABLE" : {
+            "FULLNAME" : "Full Name",
+            "DATE" : "Join date",
+            "ACTIVE" : "Last active",
+            "ROLE" : "Role",
+            "EMAIL_VERIFY" : "Email Verify"
+        },
+        "ROLE" : {
+            "WRITTER" : "Writter",
+            "EDITOR" : "Editor",
+            "ADMIN" : "Admin",
+            "ALL" : "Show All"
+        },
+        "MANAGE" : "Manage by topics",
+        "VERIFY_EMAIL" : "Email is verified",
+        "VERIFY_NOT_EMAIL" : "Email is not verified"
+    },
+    "ROLE" : {
+        "ADD_ROLE" : "Add Role",
+        "TABLE" : {
+            "ROLE" : "Role", 
+            "DATE" : "Date",
+            "TOTAL" : "User"
+        }
+    },
+    "SETTING" : {
+        "TITLE" : "Setting",
+        "GENERAL"  : {
+            "LABEL" : "General Account Settings",
+            "NAME" : {
+                "LABEL" : "Name",
+                "BUTTON" : "Change Name"
+            },
+            "PASSWORD" : {
+                "LABEL" : "Password",
+                "PASSWORD_TEXT" : "Always keep passwords secret",
+                "BUTTON" : "Change Password"
+            }
+        },
+        "LANGTHEME" : {
+            "LABEL" : "Language and Theme",
+            "LANGUAGE" : "Language",
+            "THEME" : "Theme"
+        },
+        "LOGIN_HISTORY" : {
+            "LABEL" : "Login Histroy",
+            "COLLAPSE" : "Show",
+            "UNCOLLAPSE" : "Close"
+        }
+    }, 
+    "PROFILE" : {
+        "UPDATE" : {
+            "EDIT" : "Edit",
+            "UPDATE_PROFILE" : "Update Profile",
+            "PROFILE_PICTURE" : "Profile Picture",
+            "BIODATA" : "Biodata",
+            "UPDATE_PROFILE_PICTURE" : "Update Profile Picture",
+            "UPLOAD_PHOTO" : "Upload Photo",
+            "CHANGE_PHOTO" : "Change Photo",
+            "REMOVE_PHOTO" : "Remove Photo",
+            "SAVE_PHOTO" : "Save Photo",
+            "UPDATE_BIODATA" : "Update Biodata",
+            "SAVE_BIODATA" : "Save Biodata"
+        }
+    }
+}
