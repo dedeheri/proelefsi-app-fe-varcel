@@ -30,7 +30,7 @@ function ArticleByTopics() {
   // clear data in redux
   useEffect(() => {
     return () => dispatch({ type: CLEAR_BY_TOPICS_ARTICLE });
-  }, [params.topics]);
+  }, [dispatch, params.topics]);
 
   return (
     <Container>

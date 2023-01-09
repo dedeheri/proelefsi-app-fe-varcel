@@ -4,12 +4,10 @@ import OtherButton from "./init/OtherButton";
 import Image from "./init/Image";
 import Password from "./init/Password";
 import Proccess from "./init/Proccess";
-import Alert from "./init/Alert";
 import Checkbox from "./init/Checkbox";
-import Tooltips from "./init/Tooltips";
 import Editor from "./init/Editor";
 import NotFound from "./init/NotFound";
-
+import TextEditor from "./init/TextEditor";
 import Footer from "./auth/Footer";
 
 // container add
@@ -58,7 +56,7 @@ import History from "./dashboard/setting/History";
 
 // home
 import NewActivityArticle from "./dashboard/NewActivityArticle";
-import TextEditor from "./dashboard/TextEditor";
+
 import FilterArticle from "./dashboard/FilterArticle";
 
 import Message from "./dashboard/Message";
@@ -70,12 +68,10 @@ export {
   GridAddArticle,
   Input,
   Editor,
-  Tooltips,
   Button,
   Image,
   Password,
   Proccess,
-  Alert,
   Checkbox,
   Footer,
   NotFound,

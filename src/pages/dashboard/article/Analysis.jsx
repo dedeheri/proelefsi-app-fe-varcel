@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 
-import { Container } from "../../../components/";
+import { Container } from "../../../components";
 import { analysisArticleAction } from "../../../constants/action/dashboard/index";
 
 import {

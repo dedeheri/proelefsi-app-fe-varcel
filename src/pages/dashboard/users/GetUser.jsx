@@ -12,7 +12,7 @@ import {
   SkeletonTableUser,
   TableUser,
   Message,
-} from "../../../components/";
+} from "../../../components";
 import { userAction } from "../../../constants/action/dashboard";
 import { getAllCookies } from "../../../utils/Cookie";
 import DeleteUser from "./DeleteUser";

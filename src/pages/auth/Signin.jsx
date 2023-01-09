@@ -1,26 +1,25 @@
 import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
-import { requestSignIn } from "../../action/account";
 
 import { useTranslation } from "react-i18next";
 
 // compontens
 import { Input, Button, Password, Proccess, Checkbox } from "../../components";
 import Container from "../../components/auth/Container";
+import { signInAction } from "../../constants/action";
+import { useDispatch, useSelector } from "react-redux";
 
 function Signin() {
   const { t } = useTranslation();
+  const { fetching, validation, message } = useSelector(
+    (state) => state.signInReducer
+  );
+  const dispatch = useDispatch();
   const [state, setState] = useState({
-    fetching: false,
     email: "",
     remember_me: false,
     password: "",
-    message: {
-      error: "",
-      validation: "",
-      success: "",
-    },
   });
 
   function handleChange(e) {
@@ -31,50 +30,43 @@ function Signin() {
     }));
   }
 
-  async function handleOnSubmit(e) {
+  function handleOnSubmit(e) {
     e.preventDefault();
-    await requestSignIn(setState, state);
+    dispatch(signInAction(state));
   }
 
   return (
-    <Container
-      onSubmit={handleOnSubmit}
-      alertSuccess={state?.message?.success?.message}
-    >
-      <Input
-        placeholder={"Email"}
-        name="email"
-        onChange={handleChange}
-        error={
-          state?.message?.validation?.email?.message ||
-          state?.message?.error?.email
-        }
-      />
-      <Password
-        placeholder={t("AUTH.PASSWORD")}
-        name="password"
-        onChange={handleChange}
-        error={
-          state?.message?.validation?.password?.message ||
-          state?.message?.error?.password
-        }
-      />
-
-      <div className="flex items-center justify-between">
-        <Checkbox
-          label={t("AUTH.REMEMBER")}
+    <Container title={"AUTH.SIGNIN"} onSubmit={handleOnSubmit}>
+      <form className="space-y-4" onSubmit={handleOnSubmit}>
+        <Input
+          placeholder={"Email"}
+          name="email"
           onChange={handleChange}
-          defaultValue={state.remember_me}
+          error={validation?.email?.message || message?.email}
+        />
+        <Password
+          placeholder={t("AUTH.PASSWORD")}
+          name="password"
+          onChange={handleChange}
+          error={validation?.password?.message || message?.password}
         />
 
-        <Link to={"/account/forget"}>
-          <h1 className="text-sm font-medium text-gray-500 hover:text-black dark:text-gray-300 dark:hover:text-white duration-300">
-            {t("AUTH.FORGET")}
-          </h1>
-        </Link>
-      </div>
+        <div className="flex items-center justify-between">
+          <Checkbox
+            label={t("AUTH.REMEMBER")}
+            onChange={handleChange}
+            defaultValue={state.remember_me}
+          />
 
-      {state.fetching ? <Proccess /> : <Button label={t("AUTH.SIGNIN")} />}
+          <Link to={"/account/forget"}>
+            <h1 className="text-sm font-medium text-gray-500 hover:text-black dark:text-gray-300 dark:hover:text-white duration-300">
+              {t("AUTH.FORGET")}
+            </h1>
+          </Link>
+        </div>
+
+        {fetching ? <Proccess /> : <Button label={t("AUTH.SIGNIN")} />}
+      </form>
 
       {/* signup */}
       <div className="flex justify-between items-center space-x-3">

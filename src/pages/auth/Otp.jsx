@@ -39,17 +39,19 @@ function Otp() {
   }
 
   return (
-    <Container onSubmit={handleOnSubmit}>
-      <Input
-        placeholder={"OTP"}
-        name="otp"
-        onChange={handleChange}
-        error={state?.message?.validation?.otp?.message}
-      />
+    <Container>
+      <form onSubmit={handleOnSubmit} className="space-y-3">
+        <Input
+          placeholder={"OTP"}
+          name="otp"
+          onChange={handleChange}
+          error={state?.message?.validation?.otp?.message}
+        />
 
-      <ResendOTP reSend={reSend} setResend={setResend} />
+        <ResendOTP reSend={reSend} setResend={setResend} />
 
-      {state.fetching ? <Proccess /> : <Button label={t("AUTH.SEND")} />}
+        {state.fetching ? <Proccess /> : <Button label={t("AUTH.SEND")} />}
+      </form>
     </Container>
   );
 }

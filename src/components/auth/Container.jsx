@@ -1,18 +1,26 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Toaster } from "react-hot-toast";
+import { useTranslation } from "react-i18next";
 import { logo, logoLight } from "../../assets/image";
 import { getAllCookies } from "../../utils/Cookie";
 import Footer from "./Footer";
 
-function Container({ onSubmit, children }) {
+function Container({ onSubmit, children, title }) {
   const cookie = getAllCookies();
+  const {t} = useTranslation()
 
   return (
     <div className={cookie.theme === "dark" ? "dark" : "light"}>
       <div className=" bg-white dark:bg-black text-black dark:text-white w-full h-full min-h-screen">
+
+        <Helmet>
+        <title>{t(title)} - proelefsi</title>
+        </Helmet>
+
+
         <Toaster position="top-center" reverseOrder={false} />
-        <form
-          onSubmit={onSubmit}
+        <div
           className="flex flex-col items-center justify-center pt-16 space-y-10 py-10 "
         >
           {/* image */}
@@ -27,7 +35,7 @@ function Container({ onSubmit, children }) {
             {children}
           </div>
           <Footer />
-        </form>
+        </div>
       </div>
     </div>
   );

@@ -8,6 +8,7 @@ import {
   verifyEmailAccountAction,
   changeRoleAction,
   deleteAccountReducer,
+  signInReducer,
 } from "./auth";
 import {
   otherRedux,
@@ -61,6 +62,7 @@ const combineReducer = combineReducers({
   verifyEmailAccountAction,
   changeRoleAction,
   deleteAccountReducer,
+  signInReducer,
   // dashboard
   userReducer,
   searchTermHistoryReducer,
